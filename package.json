@@ -1,0 +1,29 @@
+{
+  "name": "gitlab-comment",
+  "version": "0.1.0",
+  "description": "add comment to gitlab",
+  "type": "module",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ThaddeusJiang/gitlab-comment.git"
+  },
+  "keywords": [
+    "gitlab",
+    "comment",
+    "nodejs"
+  ],
+  "author": "TJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThaddeusJiang/gitlab-comment/issues"
+  },
+  "homepage": "https://github.com/ThaddeusJiang/gitlab-comment#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node-fetch": "^3.2.10"
+  }
+}
